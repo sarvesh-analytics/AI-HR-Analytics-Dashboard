@@ -1,263 +1,175 @@
-\# AI-Powered HR Analytics Dashboard
+# AI-Powered HR Analytics Dashboard
+### Employee Attrition Analysis, Workforce Insights & AI-Based Risk Prediction
 
+---
 
+## Project Overview
 
-\## Project Overview
+This is an end-to-end **AI-Powered HR Analytics Dashboard** built using **PostgreSQL, SQL, Power BI, and DAX**.
 
-This project is an end-to-end AI-powered HR Analytics Dashboard built using PostgreSQL and Power BI.
+The project transforms raw HR employee data into actionable business insights for HR teams and management.
 
+This dashboard helps analyze:
 
+- Employee Attrition
+- Workforce Demographics
+- Salary Distribution
+- Department-wise Risk Analysis
+- AI-Based Employee Risk Scoring
+- Attrition Prediction & Forecasting
 
-The dashboard helps HR teams analyze:
+---
 
+## Tech Stack
 
+- PostgreSQL
+- SQL
+- Power BI
+- DAX
+- Data Analytics
+- Business Intelligence
+- AI-based Prediction Logic
 
-\- Employee Attrition
+---
 
-\- Workforce Demographics
+## Dataset Information
 
-\- Salary Distribution
+Dataset Used: **IBM HR Analytics Employee Attrition Dataset**
 
-\- High-Risk Employees
+Total Employees: **1470**
 
-\- Attrition Prediction using AI logic
+Important Features:
+- Age
+- Department
+- Job Role
+- Monthly Income
+- Attrition
+- Overtime
+- Job Satisfaction
+- Work-Life Balance
+- Years at Company
 
+---
 
+# Dashboard Pages
 
-This project converts raw HR employee data into actionable business insights for better decision-making.
+## 1) Overview Dashboard
+Contains:
+- Total Employees
+- Attrition Count
+- Attrition Rate
+- Average Salary
+- Age Group Analysis
+- Department Distribution
 
+---
 
-
-\---
-
-
-
-\## Tech Stack
-
-
-
-\- PostgreSQL
-
-\- Power BI
-
-\- SQL
-
-\- DAX
-
-\- Data Analytics
-
-\- AI-Based Risk Prediction
-
-
-
-\---
-
-
-
-\## Dataset
-
-
-
-IBM HR Analytics Employee Attrition Dataset
-
-
-
-Total Records: \*\*1470 employees\*\*
-
-
-
-Key columns:
-
-\- Age
-
-\- Department
-
-\- Job Role
-
-\- Monthly Income
-
-\- Attrition
-
-\- Overtime
-
-\- Job Satisfaction
-
-\- Work Life Balance
-
-
-
-\---
-
-
-
-\## Dashboard Pages
-
-
-
-\### 1. Overview Dashboard
-
-\- Total Employees
-
-\- Attrition Count
-
-\- Attrition Rate
-
-\- Average Salary
-
-\- Department Analysis
-
-\- Age Group Analysis
-
-
-
-\### 2. Attrition Analysis
-
+## 2) Attrition Analysis
 Analyzed attrition based on:
+- Job Role
+- Overtime
+- Salary Slab
+- Marital Status
 
-\- Job Role
+---
 
-\- Overtime
+## 3) Workforce Insights
+Analyzed:
+- Average Age
+- Average Salary
+- Salary Distribution
+- Education Field Distribution
+- Department Compensation
+- Work-Life Balance
 
-\- Salary Band
+---
 
-\- Marital Status
+## 4) AI Insights
+AI logic classifies employees into:
 
-
-
-\### 3. Workforce Insights
-
-Analyzed workforce demographics:
-
-\- Average Age
-
-\- Salary Distribution
-
-\- Education Field
-
-\- Department Compensation
-
-\- Work Life Balance
-
-
-
-\### 4. AI Risk Insights
-
-AI logic identifies:
-
-\- High Risk Employees
-
-\- Medium Risk Employees
-
-\- Low Risk Employees
-
-
+- High Risk
+- Medium Risk
+- Low Risk
 
 Risk factors:
+- Low Salary
+- Overtime
+- Low Job Satisfaction
+- Poor Work-Life Balance
 
-\- Overtime
+---
 
-\- Low Salary
+## 5) Attrition Prediction
+Prediction Categories:
+- Likely to Leave
+- At Risk
+- Stable
 
-\- Poor Work-Life Balance
+Used rule-based predictive logic to forecast future attrition risk.
 
-\- Low Job Satisfaction
+---
 
+# Dashboard Screenshots
 
+## Overview Dashboard
+![Overview](Dashboard_Screenshots/overview.png)
 
-\### 5. Attrition Prediction
+---
 
-Prediction categories:
+## Attrition Analysis
+![Attrition](Dashboard_Screenshots/attrition.png)
 
-\- Likely to Leave
+---
 
-\- At Risk
+## Workforce Insights
+![Workforce](Dashboard_Screenshots/workforce.png)
 
-\- Stable
+---
 
+## AI Insights
+![AI Insights](Dashboard_Screenshots/ai_insights.png)
 
+---
 
-Provides future attrition forecasting.
+## Attrition Prediction
+![Prediction](Dashboard_Screenshots/prediction.png)
 
+---
 
+# Key Business Insights
 
-\---
+- Overall Attrition Rate = **16.12%**
+- Employees doing overtime show higher attrition probability
+- Lower salary employees are more likely to leave
+- Sales and R&D require retention planning
+- Work-life balance significantly affects employee retention
 
+---
 
+# Project Folder Structure
 
-\## Dashboard Screenshots
+```bash
+AI-HR-Analytics-Dashboard/
+│
+├── Dataset/
+├── PowerBI/
+├── SQL Queries/
+├── Dashboard_Screenshots/
+└── README.md
+```
 
+---
 
+# Author
 
-\### Overview
+## Sarvesh Gudadhe
+B.Tech Computer Science Graduate  
+Aspiring Data Analyst | BI Analyst | Data Engineer  
 
-!\[Overview](Dashboard\_Screenshots/overview.png)
+### Contact Details
+Email: sarvesh02official@gmail.com  
+GitHub: https://github.com/sarvesh-analytics  
 
+---
 
-
-\### Attrition Analysis
-
-!\[Attrition](Dashboard\_Screenshots/attrition.png)
-
-
-
-\### Workforce Insights
-
-!\[Workforce](Dashboard\_Screenshots/workforce.png)
-
-
-
-\### AI Insights
-
-!\[AI Insights](Dashboard\_Screenshots/ai\_insights.png)
-
-
-
-\### Attrition Prediction
-
-!\[Prediction](Dashboard\_Screenshots/prediction.png)
-
-
-
-\---
-
-
-
-\## Key Business Insights
-
-
-
-\- Attrition rate is 16.12%
-
-\- Employees doing overtime have higher attrition probability
-
-\- Low salary employees are more likely to leave
-
-\- Sales and R\&D departments need retention focus
-
-\- Work-life balance impacts attrition significantly
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\*\*Sarvesh Gudadhe\*\*  
-
-B.Tech CSE Graduate  
-
-Aspiring Data Analyst / Data Engineer  
-
-
-
-GitHub: sarvesh-analytics
-
-Dashboard_Screenshots/overview.png
-Dashboard_Screenshots/attrition.png
-Dashboard_Screenshots/workforce.png
-Dashboard_Screenshots/ai_insights.png
-Dashboard_Screenshots/prediction.png
+⭐ If you liked this project, feel free to star this repository.
