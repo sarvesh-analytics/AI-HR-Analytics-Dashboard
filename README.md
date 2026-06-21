@@ -256,3 +256,8 @@ Aspiring Data Analyst / Data Engineer
 
 GitHub: sarvesh-analytics
 
+Dashboard_Screenshots/overview.png
+Dashboard_Screenshots/attrition.png
+Dashboard_Screenshots/workforce.png
+Dashboard_Screenshots/ai_insights.png
+Dashboard_Screenshots/prediction.png
